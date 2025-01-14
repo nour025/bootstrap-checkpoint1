@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    height: 85px;
+    background-color: rgb(87, 27, 27);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    
+    align-items: center;
+
+
+    padding: 0 25px;
+}
+.navbar-brand{
+    font-size: 25px;
+    font-weight: 600;
+    color: rgb(246, 180, 129);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.navbar-brand:hover{
+   color: black;
+}
+
+.nav-link{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: rgb(243, 169, 104)!important;
+}
+.nav-link:hover{
+    color: black;
+    cursor: pointer;
+}
+.btn1{
+    width: 60px;
+    height: 35px;
+border-radius:60px;
+border: none;
+background-color: rgb(240, 145, 86);
+color: azure;
+
+
+}
+.searchy{
+    border-radius: 50px;
+    border: 2px solid rgb(234, 126, 84);
+    margin-right: -60px;
+    background-color: rgb(250, 250, 250);
+    width: 200px;
+    
+}
+.header{
+    background-image: url(./arty.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 600px;
+    width: 100%;
+}   
+.header h1{
+    font-size: 40px;
+    color: rgb(220, 192, 161)!important;
+    font-family: "Playwrite AU SA", serif;
+    position: absolute;
+    top: 80px;
+    left: 10px;
+}
+
+.card {
+    transition: transform 0.2s ease-in-out;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(166, 70, 70, 0.1);
+    background-color: #511e1e;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    column-gap: 50px;
+    color: rgb(239, 198, 160);
+    
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.price {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #d8d0c6;
+}
+
+.btn-primary {
+    background-color: #653411;
+    border: none;
+    padding: 0.5rem;
+    width: fit-content;
+    
+}
+
+.btn-primary:hover {
+    background-color: #000102;
+    border-color: #000407;
+}
+
+/* Updated products section styles */
+.products-section {
+    background-color: rgb(87, 27, 27);
+    
+    padding: 4rem 0;
+    margin-top: 40px;
+}
+h1{
+    color: rgb(214, 126, 72);
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+.gridy{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
+    
+}
