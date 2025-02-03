@@ -3,131 +3,173 @@
     margin: 0;
     box-sizing: border-box;
 }
-.navbar{
-    height: 85px;
-    background-color: rgb(87, 27, 27);
+#bdzotchi img{
+    width: 80px;
+    height: 65px;
+
+}
+#navbar{
     position: sticky;
-    top: 0px;
-    z-index: 1;
-    
-    align-items: center;
-
-
-    padding: 0 25px;
-}
-.navbar-brand{
-    font-size: 25px;
-    font-weight: 600;
-    color: rgb(246, 180, 129);
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-.navbar-brand:hover{
-   color: black;
-}
-
-.nav-link{
-    margin-right: 10px;
-    margin-left: 10px;
-    font-size: 20px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: rgb(243, 169, 104)!important;
-}
-.nav-link:hover{
-    color: black;
-    cursor: pointer;
-}
-.btn1{
-    width: 60px;
-    height: 35px;
-border-radius:60px;
-border: none;
-background-color: rgb(240, 145, 86);
-color: azure;
-
-
-}
-.searchy{
-    border-radius: 50px;
-    border: 2px solid rgb(234, 126, 84);
-    margin-right: -60px;
-    background-color: rgb(250, 250, 250);
-    width: 200px;
+    background-color: rgb(30, 19, 13);
     
 }
-.header{
-    background-image: url(./arty.webp);
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 600px;
-    width: 100%;
+    .nav-link{
+        color: rgb(234, 194, 146);
+        font-size: 18px;
+        font-style: oblique;
+        font-weight: lighter;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        transition: 0.5s;
+    }
+    .nav-link:hover{
+        background-color: bisque;
+        border-radius: 6px;
+        color: rgb(38, 28, 17);
+    }
+    #navbar form button{
+        border-radius: 6px;
+        color: bisque;
+        background-color: rgb(54, 37, 23) ;
+    }
+    #navbar form input{
+        border-radius: 6px;
+        background-color:bisque;
+        border: none;
+    }
+    #navbar form input::placeholder{
+          color:rgb(46, 34, 23);
+    }
+    ul{
+        display: flex;
+        
+    }
+    #Home{
+        background-image: url(./images/womens.jpg);
+        background-color: rgb(32, 18, 2);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position:center;
+        min-height: 80vh;
+    }
+    #hsec{
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: 400;
+        color: #675542;
+        font-size: 1.5rem;
+        text-transform: inherit; 
+         text-align: start;
+        padding-left: 80px;
+        padding-top: 40px;
+    }
+    #history p{
+        font-size: 20px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    #btn{
+        border-radius: 8px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        color: rgb(164, 145, 121);
+        padding: 4px;
+        background-color: rgb(42, 32, 24);
+        border-style: hidden;
+        text-transform: capitalize;
+    }
+    #btn:hover{
+        background-color: rgb(231, 207, 179);
+        cursor: pointer;
+        color: rgb(36, 22, 8);
+    }
+    #About{
+        background-color: rgb(52, 32, 8);
+        color: rgb(199, 176, 149);
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: capitalize;
+        padding: 3rem;
+        min-height: 100vh;
+    }
+    
+    .heading{
+        text-align: center;
+        font-size: 30px;
+        padding-bottom:15px ;
+    }
+    .heading span{
+        color: rgb(117, 93, 56);
+    }
+    #About-btn{
+        width: 140px;
+        height: 40px;
+        font-size: large;
+        text-transform: capitalize;
+        border-radius: 7px;
+        border: none;
+        background-color: bisque;
+    }
+    #About-btn:hover{
+        color: rgb(206, 188, 164);
+        background-color: rgb(41, 22, 8);
+    }
+    .card{
+        border-radius: 14px;
+        display: flex;
+        justify-self: center;
+    }
+    .card img{
+        border-radius: 4px;
+
+    }
+    #Products{
+        background-color:rgb(41, 22, 8);
+        color: rgb(181, 156, 124);
+        border-radius: 7px;
+    }
+    #Products h4{
+      color: rgb(159, 127, 59);
+    }
+    .card-body a{
+        width: 90px;
+        border-radius: 7px;
+        padding: 8px;
+        background-color: rgb(178, 155, 127);
+        color: rgb(49, 31, 9);
+    }
+    .card-body a:hover{
+        background-color: rgb(48, 31, 13);
+        color: rgb(203, 168, 124);
+    }
+    .heading2{
+        text-align: center;
+        padding-top: 30px;
+        padding-bottom:20px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        text-transform: capitalize;
+        font-size: 35px;
+        color: rgb(194, 167, 122);
+        font-weight: 500;
+    }
+    .card-body h4{
+        color: rgb(238, 207, 167);
+    }
+
+    footer a {
+        text-decoration: none;
+        transition: color 0.3s ease-in-out;
+    }
+    footer a:hover {
+        color: #ffc107; /* Gold-like hover color */
+    }
+#Contact{
+    background-color: rgb(31, 18, 3);
+    color: rgb(195, 169, 137);
+    border-radius:7px;
 }   
-.header h1{
-    font-size: 40px;
-    color: rgb(220, 192, 161)!important;
-    font-family: "Playwrite AU SA", serif;
-    position: absolute;
-    top: 80px;
-    left: 10px;
-}
-
-.card {
-    transition: transform 0.2s ease-in-out;
-    border-radius: 20px;
-    box-shadow: 0 4px 6px rgba(166, 70, 70, 0.1);
-    background-color: #511e1e;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-    column-gap: 50px;
-    color: rgb(239, 198, 160);
-    
-}
-
-.card:hover {
-    transform: translateY(-5px);
-}
-
-.card-img-top {
-    height: 200px;
-    object-fit: cover;
-}
-
-.price {
-    font-size: 1.25rem;
-    font-weight: bold;
-    color: #d8d0c6;
-}
-
-.btn-primary {
-    background-color: #653411;
-    border: none;
-    padding: 0.5rem;
-    width: fit-content;
-    
-}
-
-.btn-primary:hover {
-    background-color: #000102;
-    border-color: #000407;
-}
-
-/* Updated products section styles */
-.products-section {
-    background-color: rgb(87, 27, 27);
-    
-    padding: 4rem 0;
-    margin-top: 40px;
-}
-h1{
-    color: rgb(214, 126, 72);
-    text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-
-}
-.gridy{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    
-    
-}
+#socialicons i{
+    color:rgb(159, 127, 59)!important;
+} 
+#info i{
+    color: rgb(159, 127, 59);
+}  
+#collection li a{
+    color: rgb(159, 127, 59);
+}   
